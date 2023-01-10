@@ -1,3 +1,17 @@
-h1 {
-    background-color: purple;
+body {
+    margin: 0;
 }
+
+.header, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.newsletter {
+    background-color: #3882F6;
+}
+
