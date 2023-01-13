@@ -9,17 +9,41 @@ body {
     justify-content: space-between;
 }
 
+ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
 .header {
     background-color: #1f2937;
     color: white;
 }
 
-#header-logo {
+#header-logo a {
     font-size: 24px;
     color: #f9faf8;
 }
 
-.nav-link {
+.nav-link a {
     font-size: 18px;
     color: #e5e7eb;
 }
