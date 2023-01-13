@@ -16,6 +16,17 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*  Header   */
+
+.header {
+    background-color: #1f2937;
+    color: white;
+}
+
 .navbar ul {
     display: flex;
     justify-content: space-between;
@@ -29,15 +40,6 @@ ul {
     gap: 10px;
 }
 
-a {
-    text-decoration: none;
-}
-
-.header {
-    background-color: #1f2937;
-    color: white;
-}
-
 #header-logo a {
     font-size: 24px;
     color: #f9faf8;
@@ -47,6 +49,17 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/*  Cards section   */
+
+.cards-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+/*  Quote   */
 
 .quote {
     background-color: #e5e7eb;
@@ -64,6 +77,8 @@ a {
     font-style: italic;
     font-size: 36px;
 }
+
+/*  Newsletter   */
 
 .newsletter {
     background-color: #3882F6;
@@ -85,6 +100,8 @@ a {
 .newsletter-content p {
     margin: 0;
 }
+
+/*  Footer   */
 
 .footer {
     background-color: #1f2937;
