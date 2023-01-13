@@ -50,6 +50,11 @@ a {
     color: #e5e7eb;
 }
 
+.header-container img {
+    width: auto;
+    height: 300px;
+}
+
 /*  Cards section   */
 
 .cards-section h2 {
@@ -57,6 +62,11 @@ a {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
+}
+
+.cards-section img {
+    width: 200px;
+    height: 200px;
 }
 
 /*  Quote   */
